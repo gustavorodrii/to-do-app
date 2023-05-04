@@ -4,7 +4,6 @@ import '../models/task_model.dart';
 
 late Box box;
 
-// ignore: must_be_immutable
 class MyListTile extends StatefulWidget {
   MyListTile(this.task, this.index, {Key? key}) : super(key: key);
 

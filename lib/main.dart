@@ -9,7 +9,6 @@ Task? task;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   await Hive.initFlutter();
   Hive.registerAdapter<Task>(TaskAdapter());
   box = await Hive.openBox<Task>("tasks");
